@@ -1,0 +1,38 @@
+ body{
+    background-image: url(/image/9-10.jpg);
+} 
+
+
+.material-symbols-outlined {
+  font-variation-settings:
+  'FILL' 0,
+  'wght' 400,
+  'GRAD' 0,
+  'opsz' 24;
+  
+}
+
+ul{
+    display: flex;
+    flex-direction: column; 
+   
+    
+}
+li{
+    display: flex;
+    justify-content: space-between;
+    font-size: 30px;  
+    font-weight: bold;  
+    text-decoration: underline;
+}
+
+.line-through{
+    text-decoration: line-through;
+}
+
+.close-button{
+    flex: 1;
+  text-align: end;
+    cursor: default;
+   padding-top: 1%;
+}
